@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C8E50D9B1ED867E5002BB378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E50D9A1ED867E5002BB378 /* AppDelegate.swift */; };
-		C8E50D9D1ED867E5002BB378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E50D9C1ED867E5002BB378 /* ViewController.swift */; };
+		C8E50D9D1ED867E5002BB378 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E50D9C1ED867E5002BB378 /* loginVC.swift */; };
 		C8E50DA01ED867E5002BB378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E50D9E1ED867E5002BB378 /* Main.storyboard */; };
 		C8E50DA21ED867E5002BB378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E50DA11ED867E5002BB378 /* Assets.xcassets */; };
 		C8E50DA51ED867E5002BB378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E50DA31ED867E5002BB378 /* LaunchScreen.storyboard */; };
 		C8E50DB01ED867E5002BB378 /* PassingDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E50DAF1ED867E5002BB378 /* PassingDataTests.swift */; };
 		C8E50DBB1ED867E5002BB378 /* PassingDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E50DBA1ED867E5002BB378 /* PassingDataUITests.swift */; };
+		C8E50DC91ED8699F002BB378 /* MusicListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E50DC81ED8699F002BB378 /* MusicListVc.swift */; };
+		C8E50DCB1ED86C84002BB378 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E50DCA1ED86C84002BB378 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		C8E50D971ED867E5002BB378 /* PassingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E50D9A1ED867E5002BB378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8E50D9C1ED867E5002BB378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8E50D9C1ED867E5002BB378 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 		C8E50D9F1ED867E5002BB378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8E50DA11ED867E5002BB378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8E50DA41ED867E5002BB378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		C8E50DB61ED867E5002BB378 /* PassingDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E50DBA1ED867E5002BB378 /* PassingDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataUITests.swift; sourceTree = "<group>"; };
 		C8E50DBC1ED867E5002BB378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E50DC81ED8699F002BB378 /* MusicListVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVc.swift; sourceTree = "<group>"; };
+		C8E50DCA1ED86C84002BB378 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				C8E50D9A1ED867E5002BB378 /* AppDelegate.swift */,
-				C8E50D9C1ED867E5002BB378 /* ViewController.swift */,
+				C8E50D9C1ED867E5002BB378 /* loginVC.swift */,
 				C8E50D9E1ED867E5002BB378 /* Main.storyboard */,
 				C8E50DA11ED867E5002BB378 /* Assets.xcassets */,
 				C8E50DA31ED867E5002BB378 /* LaunchScreen.storyboard */,
 				C8E50DA61ED867E5002BB378 /* Info.plist */,
+				C8E50DC81ED8699F002BB378 /* MusicListVc.swift */,
+				C8E50DCA1ED86C84002BB378 /* PlaySongVC.swift */,
 			);
 			path = PassingData;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8E50D9D1ED867E5002BB378 /* ViewController.swift in Sources */,
+				C8E50D9D1ED867E5002BB378 /* loginVC.swift in Sources */,
+				C8E50DCB1ED86C84002BB378 /* PlaySongVC.swift in Sources */,
 				C8E50D9B1ED867E5002BB378 /* AppDelegate.swift in Sources */,
+				C8E50DC91ED8699F002BB378 /* MusicListVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
