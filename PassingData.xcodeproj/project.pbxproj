@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					C8E50D961ED867E5002BB378 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5U7566VPV2;
 						ProvisioningStyle = Automatic;
 					};
 					C8E50DAA1ED867E5002BB378 = {
@@ -420,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5U7566VPV2;
 				INFOPLIST_FILE = PassingData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sherry.PassingData;
@@ -432,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5U7566VPV2;
 				INFOPLIST_FILE = PassingData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sherry.PassingData;
@@ -513,6 +516,7 @@
 				C8E50DC11ED867E5002BB378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8E50DC21ED867E5002BB378 /* Build configuration list for PBXNativeTarget "PassingDataTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +525,7 @@
 				C8E50DC41ED867E5002BB378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8E50DC51ED867E5002BB378 /* Build configuration list for PBXNativeTarget "PassingDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +534,7 @@
 				C8E50DC71ED867E5002BB378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

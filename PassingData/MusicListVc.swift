@@ -20,7 +20,7 @@ class MusicListVc: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     @IBAction func PlaySongPressed(_ sender: Any) {
-        let SongTitle = "some time we are together"
+        let SongTitle = "Some time we are together"
         performSegue(withIdentifier: "PlaySongVC", sender: SongTitle)
     }
     override func didReceiveMemoryWarning() {
